@@ -6,7 +6,10 @@ export default {
 
 <template>
     <div>
-        <slot></slot>
+        <slot></slot>    <!-- slot without name-->
         <!-- <slot>Default text</slot>  slote with default text  -->
+
+        <slot name="first"></slot>
+        <slot name="second"></slot>
     </div>
 </template>
